@@ -16,8 +16,8 @@ h1 {
 }
 
 .nav {
-  font-family: DIN Condensed, sans-serif, bold;
-  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif; 
+  font-size: 13px;
   word-spacing: 10px;
   text-align: center;
   color: #24617E;
@@ -75,8 +75,10 @@ h2 {
 }
 
 .story-heading a{
+  font-family: 'Droid Sans', sans-serif;
   color: #333;
   text-decoration: none;
+  line-height: 110%;
 }
 
 .byline {
