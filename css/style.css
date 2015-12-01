@@ -97,7 +97,7 @@ h2 {
   border-bottom: 2px solid #CCCCCC;
 }
 
-ol {
+.list {
   text-align: right;
 }
 
@@ -228,7 +228,84 @@ h4 a{
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 500px) and (max-width: 800px) {
+  body {
+    background-color: white;
+  }
+
+  .box {
+  width: 100%;
+  height:200px;
+  margin: 70px;
+  }
+
+  .nav {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .list {
+  clear: both; 
+  float: left;
+  margin: 50px;
+
+  }
+
+  ol li {
+  font-family: Corbel, sans-serif, bold;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid #CCCCCC;
+  list-style-type: decimal;
+}
+
+  p {
+  font-size: 18px;
+  }
+
+  img {
+  width: 85%;
+  height: 85%;
+  margin-bottom: 20px;
+  }
+
+  video {
+  width: 85%;
+  margin-bottom: 20px;
+  }
+
+  div li{
+  font-size: 12px;
+  text-align: left;
+  color: black;
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid #CCCCCC;
+  list-style-type: decimal;
+  }
+
+
+ .refer div{
+  margin: 500px 15px 0 0;
+  font-size: 15px;
+ } 
+
+ .center-story {
+  height: 580px;
+  width: 600px;
+  margin: 70px;
+  float: left;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+   width:;
+  }
+
   .show-desktop {
     display: none;
   }
@@ -250,13 +327,26 @@ h4 a{
     margin-left: 50px;
   }
 
+  .clomn1of3 {
+    float:left;
+  }
+
+  .clomn2of3 {
+    float:left;
+  }
+
+  .clomn3of3 {
+    float:left;
+  }
+
   p {
   font-size: 15px;
     }
 
   img {
-  width: 100%;
-  margin: 20px 20px 0 0;
+  width: 120%;
+  margin: 20px 40px 0 0;
+  float: left;
   }
 
   video {
@@ -285,60 +375,7 @@ h4 a{
 
 }
 
-@media (min-width: 500px) and (max-width: 800px) {
-  body {
-    background-color: white;
-  }
 
-  .box {
-  width: 75%;
-  height:200px;
-  margin: 70px;
-  }
-
-  .nav {
-    display: block;
-    font-size: 20px;
-    text-align: left;
-    margin-left: 50px;
-  }
-
-  p {
-  font-size: 18px;
-  }
-
-  img {
-  width: 85%;
-  margin-bottom: 20px;
-  }
-
-  video {
-  width: 85%;
-  margin-bottom: 20px;
-  }
-
-  div li{
-  font-size: 12px;
-  text-align: left;
-  color: black;
-  padding: 10px 0 10px 0;
-  border-bottom: 2px solid #CCCCCC;
-  list-style-type: decimal;
-}
-
-
- .refer div{
-  margin: 500px 15px 0 0;
-  font-size: 15px;
- } 
-
- .center-story {
-  height: 580px;
-  width: 300px;
-  margin: 30px 70px 30px 70px;
-  float: left;
-  }
-}
 
 
 
