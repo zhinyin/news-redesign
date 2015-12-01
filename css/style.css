@@ -1,6 +1,7 @@
 .header {
   background-color: white;
   padding: 35px;
+  margin-bottom: 
 }
 
 h1 {
@@ -187,7 +188,7 @@ h4 a{
   font-size: 12px;
 }
 
-.summary1 {
+.summary {
   font-family: Georgia, serif;
   font-size: 14px;
   text-align: center;
@@ -226,6 +227,15 @@ h4 a{
 
 .show-mobile {
   display: none;
+}
+
+.story {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  text-align: left;
+  color: black;
+  padding-bottom: 10px;
+  line-height: 120%;
 }
 
 @media (min-width: 500px) and (max-width: 800px) {
